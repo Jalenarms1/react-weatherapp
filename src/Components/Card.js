@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Form from "./Form";
 import WeatherDetails from "./WeatherDetails";
 
+
 const Card = () => {
 
     const [city, setCity] = useState("");

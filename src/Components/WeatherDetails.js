@@ -19,13 +19,13 @@ const WeatherDetails = (props) => {
                 </div>
                 <div className="wrap-det-right h-100 d-flex flex-column justify-content-center p-3">
                     <div className="stat border-bottom w-75 py-1 my-2 text-warning">
-                        <h5>Feels Like: </h5> 
+                        <h5>Feels Like: {props.stats.main.feels_like}<span>&#176;</span></h5> 
                     </div>
                     <div className="stat border-bottom w-75 py-1 my-2 text-warning">
-                        <h5>Humidity: </h5>
+                        <h5>Humidity: {props.stats.main.humidity} </h5>
                     </div>
                     <div className="stat border-bottom w-75 py-1 my-2 text-warning">
-                        <h5>Conditions: </h5>
+                        <h5>Conditions: {props.stats.weather[0].description}</h5>
                     </div>
                     
                 </div>
