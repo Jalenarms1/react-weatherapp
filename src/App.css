@@ -2,6 +2,50 @@
   text-align: center;
 }
 
+
+
+.contain-main{
+  /* background-color: #282c33; */
+  background: linear-gradient(0deg, rgba(13,110,253,1) 0%, rgba(255,193,7,1) 50%);
+  height: 100vh;
+  
+}
+
+.wrap-det-left{
+  color: #003297;
+  width: 40%;
+}
+.wrap-det-right{
+  background-color: #003297;
+  width: 75%;
+}
+
+.cst-btn{
+  border-radius: 5px;
+  padding: 1% 5%;
+  border: 1px solid rgb(238, 229, 101);
+  box-shadow: 0 0 2px black;
+  background: transparent;
+  color: rgb(238, 229, 101);
+}
+
+.cst-btn:hover {
+  color: #003297;
+  background-color: rgb(238, 229, 101);
+}
+
+.card-heading-bg{
+  background-color: #003297;
+}
+
+.cst-card{
+  box-shadow: 0 0 2px white;
+}
+
+.wrap-full{
+  background-color: #282c34;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
